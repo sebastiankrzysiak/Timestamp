@@ -22,6 +22,7 @@ function onMetadata(video) {
 
 waitForElement("video", (video) => {
   video.addEventListener("loadedmetadata", () => onMetadata(video));
+  if (video.readyState >= 1) onMetadata(video);
 
   intervalId = setInterval(() => {
     const id = new URLSearchParams(window.location.search).get("v");
