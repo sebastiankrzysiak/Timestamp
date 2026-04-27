@@ -1,3 +1,5 @@
+<img src="icons/icon128.png" width="80" />
+
 # Timestamp
 
 A Chrome extension that automatically saves your progress on YouTube videos and resumes where you left off.
